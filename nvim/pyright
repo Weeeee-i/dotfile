@@ -1,0 +1,15 @@
+2023-01-25T13:05:24,530 ERROR: (Gentoo) Please run pip with the --user option to avoid breaking python-exec
+2023-01-25T13:05:24,530 Exception information:
+2023-01-25T13:05:24,530 Traceback (most recent call last):
+2023-01-25T13:05:24,530   File "/usr/lib/python3.10/site-packages/pip/_internal/cli/base_command.py", line 160, in exc_logging_wrapper
+2023-01-25T13:05:24,530     status = run_func(*args)
+2023-01-25T13:05:24,530   File "/usr/lib/python3.10/site-packages/pip/_internal/cli/req_command.py", line 247, in wrapper
+2023-01-25T13:05:24,530     return func(self, options, args)
+2023-01-25T13:05:24,530   File "/usr/lib/python3.10/site-packages/pip/_internal/commands/install.py", line 292, in run
+2023-01-25T13:05:24,530     raise CommandError("(Gentoo) Please run pip with the --user option to avoid breaking python-exec")
+2023-01-25T13:05:24,530 pip._internal.exceptions.CommandError: (Gentoo) Please run pip with the --user option to avoid breaking python-exec
+2023-01-25T13:05:24,621 1 location(s) to search for versions of pip:
+2023-01-25T13:05:24,621 * https://pypi.org/simple/pip/
+2023-01-25T13:05:24,621 Fetching project page and analyzing links: https://pypi.org/simple/pip/
+2023-01-25T13:05:24,622 Getting page https://pypi.org/simple/pip/
+2023-01-25T13:05:24,622 Found index url https://pypi.org/simple

@@ -74,4 +74,4 @@ vim.o.showtabline = 2
 -- vim.opt.clipboard = "unnamedplus"
 
 -- 主题
-vim.cmd[[colorscheme tokyonight]]
+-- vim.cmd[[colorscheme tokyonight]]

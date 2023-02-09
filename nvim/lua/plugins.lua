@@ -11,8 +11,6 @@ return require('packer').startup(function(use)
 
 	use {'neovim/nvim-lspconfig'}
 
-	use{'folke/tokyonight.nvim'}
-
 	use{'nvim-treesitter/nvim-treesitter'}
 
 	use{'hrsh7th/cmp-nvim-lsp'}
@@ -26,5 +24,12 @@ return require('packer').startup(function(use)
 	use{'rafamadriz/friendly-snippets'}
 
 	use{'onsails/lspkind-nvim'}
+
+	use{'dcampos/nvim-snippy'}
+
+	use {
+		"windwp/nvim-autopairs",
+		config = function() require("nvim-autopairs").setup {} end
+	}
 
 end)

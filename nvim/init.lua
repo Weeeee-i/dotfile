@@ -4,13 +4,11 @@ require('plugins')
 
 require('config/mark')
 require('config/treesitter')
+require('config/autopair')
 
 require('keymap')
 
 -- LSP
-require('lsp/python')
-require('lsp/lua')
-require('lsp/bash')
 require('lsp/start')
 
 require('lsp/nvim-cmp')
